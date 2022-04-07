@@ -3,7 +3,7 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
     return(
         <div>
             <h2>{selectedEmployee.employeeName}</h2>
-            whtever
+            <img src={require("" + selectedEmployee.picture) } alt="employee"></img>
         </div>
     )
 }

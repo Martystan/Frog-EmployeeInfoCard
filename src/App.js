@@ -47,6 +47,8 @@ import SelectedEmployeeDetail from './SelectedEmployeeDetail';
       {employees.map((employee,index)=>{return <option value={index} key={index}>{employee.employeeName}</option>})}
       </select>
       {selectedEmployee ? <SelectedEmployeeDetail selectedEmployee={selectedEmployee}/>:null}
+
+      {/* <img src={require("./frog6princenaveen.png")}></img> */}
     </div>
   );
 }

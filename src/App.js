@@ -1,5 +1,6 @@
 import {useState,useEffect} from 'react';
 import './App.css';
+// import EmployeeSelector from './EmployeeSelector';
 
 
   function App() {
@@ -26,9 +27,14 @@ import './App.css';
       getData()
     },[])
 
+    
+
   return (
     <div className="App">
-      This is data
+      <select defaultValue="">
+      <option value="">Choose an Employee</option>
+      {employees.map((employee,index)=>{return <option value={index} key={index}>{employee.employeeName}</option>})}
+      </select>
     </div>
   );
 }

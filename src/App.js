@@ -41,15 +41,13 @@ import SelectedEmployeeDetail from './SelectedEmployeeDetail';
     
 
   return (
-    <div className="App">
-      <select onChange ={handleChange} defaultValue="">
-      <option value="">Choose an Employee</option>
-      {employees.map((employee,index)=>{return <option value={index} key={index}>{employee.employeeName}</option>})}
+    <main className="main-container">
+      <select className="select" onChange ={handleChange} defaultValue="">
+        <option value="">Choose an Employee</option>
+        {employees.map((employee,index)=>{return <option value={index} key={index}>{employee.employeeName}</option>})}
       </select>
       {selectedEmployee ? <SelectedEmployeeDetail selectedEmployee={selectedEmployee}/>:null}
-
-      {/* <img src={require("./frog6princenaveen.png")}></img> */}
-    </div>
+    </main>
   );
 }
 

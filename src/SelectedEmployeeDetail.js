@@ -4,9 +4,9 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
     const [visible, setVisible] = useState(false)
     const handleClick= () =>{setVisible(!visible)}
     if (visible) {return(
-        <section>
+        <section className="card">
+            <img src={require("" + selectedEmployee.picture) } alt="employee"></img>    
             <h2>{selectedEmployee.employeeName}</h2>
-            <img src={require("" + selectedEmployee.picture) } alt="employee"></img>
             <p>{selectedEmployee.jobTitle}</p>
             <p>{selectedEmployee.companyName}</p>
             <div>
@@ -20,10 +20,11 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
     )}
     else {
         return(
-            <section>
-            <h2>{selectedEmployee.employeeName}</h2>
+            <section className="card">
             <img src={require("" + selectedEmployee.picture) } alt="employee"></img>
-            <p>{selectedEmployee.jobTitle}</p>
+            <h2>{selectedEmployee.employeeName}</h2>
+            
+            <p className='job-title'>{selectedEmployee.jobTitle}</p>
             <p>{selectedEmployee.companyName}</p>
             <div>
             <img className="sm-icons" src={require('./facebook2.png') } alt="facebook"></img>

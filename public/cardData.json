@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "employeeName": "Tod Frogalicious",
+    "jobTitle": "Research and Development",
+    "companyName": "Frog Systems",
+    "moreInfo": "bla bla bla",
+    "picture": "./frog1"
+  },
+  {
+    "id": 2,
+    "employeeName": "Froggy McFrog",
+    "jobTitle": "Whatevs",
+    "companyName": "Frog Systems",
+    "moreInfo": "ribbit",
+    "picture": "./frog2"
+  }
+]

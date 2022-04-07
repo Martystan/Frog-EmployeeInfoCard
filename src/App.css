@@ -2,10 +2,11 @@
   text-align: center;
 }
 
-body{
-  background-color: bisque;
-}
+
 
 img{
   height:100px;
+}
+.sm-icons{
+  height:20px;
 }

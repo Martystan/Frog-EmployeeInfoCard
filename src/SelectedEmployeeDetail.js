@@ -4,25 +4,34 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
     const [visible, setVisible] = useState(false)
     const handleClick= () =>{setVisible(!visible)}
     if (visible) {return(
-        <div>
+        <section>
             <h2>{selectedEmployee.employeeName}</h2>
             <img src={require("" + selectedEmployee.picture) } alt="employee"></img>
             <p>{selectedEmployee.jobTitle}</p>
             <p>{selectedEmployee.companyName}</p>
+            <div>
+                <img className="sm-icons" src={require('./facebook2.png') } alt="facebook"></img>
+                <img className="sm-icons" src={require('./twitter.png') } alt="twitter"></img>
+                <img className="sm-icons" src={require('./linkedin.png') } alt="linkedin"></img>
+            </div>
             <button onClick={handleClick}>Hide Info</button>
             <p> {selectedEmployee.moreInfo}</p>
-        </div>
+        </section>
     )}
     else {
         return(
-            <div>
+            <section>
             <h2>{selectedEmployee.employeeName}</h2>
             <img src={require("" + selectedEmployee.picture) } alt="employee"></img>
             <p>{selectedEmployee.jobTitle}</p>
             <p>{selectedEmployee.companyName}</p>
+            <div>
+            <img className="sm-icons" src={require('./facebook2.png') } alt="facebook"></img>
+            <img  className="sm-icons" src={require('./twitter.png') } alt="twitter"></img>
+            <img className="sm-icons" src={require('./linkedin.png') } alt="linkedin"></img>
+            </div>
             <button onClick={handleClick}>More Info</button>
-            
-        </div>
+        </section>
         )
     }
 }

@@ -5,7 +5,7 @@ import SelectedEmployeeDetail from './SelectedEmployeeDetail';
 
   function App() {
     const [employees,setEmployees]=useState([]);
-    const[selectedEmployee,setSelectedEmployee] = useState(null)
+    const [selectedEmployee,setSelectedEmployee]=useState(null)
 
     const getData=()=>{
       fetch('cardData.json'
@@ -13,17 +13,11 @@ import SelectedEmployeeDetail from './SelectedEmployeeDetail';
         headers : { 
           'Content-Type': 'application/json',
           'Accept': 'application/json'
-         }
+        }
       }
       )
-        .then(function(response){
-          console.log(response)
-          return response.json();
-        })
-        .then(function(myJson) {
-          console.log(myJson);
-          setEmployees(myJson)
-        });
+        .then(res=>res.json())
+        .then(data=>setEmployees(data));
     }
     useEffect(()=>{
       getData()
@@ -33,16 +27,11 @@ import SelectedEmployeeDetail from './SelectedEmployeeDetail';
       setSelectedEmployee(employee)
     }
 
-    const handleChange= (event)=>{
+    const handleChange=(event)=>{
       onEmployeeSelected(employees[event.target.value])
-
     }
 
-    
-
-    
-
-  return (
+    return (
     <main className="main-container">
       <select className="select" onChange ={handleChange} defaultValue="">
         <option value="">Choose an Employee</option>

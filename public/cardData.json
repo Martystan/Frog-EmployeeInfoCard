@@ -4,15 +4,37 @@
     "employeeName": "Tod Frogalicious",
     "jobTitle": "Research and Development",
     "companyName": "Frog Systems",
-    "moreInfo": "bla bla bla",
+    "moreInfo": "Common frogs are amphibians, breeding in ponds during the spring and spending much of the rest of the year feeding in woodland, gardens, hedgerows and tussocky grassland. They are familiar inhabitants of garden ponds, where they lay their eggs in big 'rafts' of spawn. They feed on a variety of invertebrates and even smaller amphibians.",
     "picture": "./frog1.png"
   },
   {
     "id": 2,
     "employeeName": "Froggy McFrog",
-    "jobTitle": "Whatevs",
+    "jobTitle": "Front-end developer",
     "companyName": "Frog Systems",
-    "moreInfo": "ribbit",
+    "moreInfo": "A front-end developer architects and develops websites and applications using web technologies (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for non-web platform environments (i.e., React Native).",
     "picture": "./frog2.png"
+  },
+  {
+    "id": 3,
+    "employeeName": "Kermit the Frog",
+    "jobTitle": "Entertainer",
+    "companyName": "Frog Systems",
+    "moreInfo": "Kermit the Frog is a Muppet character created and originally performed by Jim Henson. Introduced in 1955, Kermit serves as the everyman protagonist of numerous Muppet productions, most notably Sesame Street and The Muppet Show, as well as in other television series, feature films, specials, and public service announcements through the years. He served as a mascot of The Jim Henson Company and appeared in various Henson projects.",
+    "picture": "./frog4.png"
+  },
+  {"id": 4,
+    "employeeName": "King Harold",
+    "jobTitle": "King",
+    "companyName": "Frog Systems",
+    "moreInfo": "King Harold was the King of Far Far Away, although he was not born into the true royal family. He is the husband of Queen Lillian and maintained the title of King through his marriage with her. His first appearance took place during Shrek 2.",
+    "picture": "./Frog5KingHarold.png"
+  },
+  {"id": 4,
+    "employeeName": "Prince Naveen",
+    "jobTitle": "Prince",
+    "companyName": "Frog Systems",
+    "moreInfo": "Prince Naveen is the deuteragonist of Disney's 2009 animated feature film, The Princess and the Frog. He is the eldest prince of Maldonia, who prides himself in being charming and handsome. While visiting New Orleans, Naveen was transformed into a frog by a wicked witch doctor. Only by kissing a princess can Naveen break the spell and become human again.",
+    "picture": "./frog6princenaveen.png"
   }
 ]

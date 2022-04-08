@@ -1,26 +1,33 @@
 .main-container {
   display:flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 100px;
-  align-items: flex-start;
+  margin: 20px;
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   
   }
 
   .select{
+    border-radius: 25px;
+    border-color: #00c0c6;
     outline:none;
     margin: 50px;
-    color:aqua;
+    color: #00767b;
     padding: 10px;
   }
 
   .card{
-    background-color: #00c0c6;
+    /* background-color: #00c0c6; */
+    background-image: linear-gradient(#00c0c6, #00767b);
     padding:30px;
     display: flex;
     flex-direction: column;
     color: white;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 25px;
+    width: 250px;
+    
   }
 
   .card h2{
@@ -34,12 +41,49 @@
     margin-bottom: 0;
   }
 
+  .company-name{
+    color: ghostwhite;
+    font-weight: bold;
+  }
+
 img{
-  height:100px;
+  height:150px;
   object-fit: contain;
   padding-bottom: 10px;
 }
 .sm-icons{
   height:20px;
   padding: 0px 10px 0px 10px;
+}
+
+.more-info{
+  display:flex;
+  align-items: center;
+  width:100%;
+  border: solid;
+  border-radius: 25px;
+  justify-content: center;
+  margin-top:15px;
+  cursor:pointer;
+
+  
+}
+
+.more-info img {
+  position: relative;
+  left: 40px;
+  top:4px;
+  height: 20px;
+}
+
+.more-info p{
+  margin:1px;
+}
+
+.info{
+  color: #00c0c6;
+  background-color: white;
+  border: solid;
+  border-radius: 25px;
+  padding:15px;
 }

@@ -1,5 +1,6 @@
 import {useState} from 'react'
 
+
 const SelectedEmployeeDetail=({selectedEmployee})=>{
     const [visible, setVisible] = useState(false)
     const handleClick= () =>{setVisible(!visible)}

@@ -18,7 +18,7 @@
   }
 
   .card{
-    /* background-color: #00c0c6; */
+   
     background-image: linear-gradient(#00c0c6, #00767b);
     padding:30px;
     display: flex;
@@ -78,6 +78,7 @@ img{
 
 .more-info p{
   margin:1px;
+  font-weight: bold;
 }
 
 .info{

@@ -1,0 +1,7 @@
+I have chosen to complete the assignment using React library since my aim was to create a dynamic, interactive web app which would allow the user to choose from a list of employees and to view details of the selected person. 
+
+To store my data I have used a local Json file for the first time, I took surprising amount of research to pass the data to the state hook, but worked in the end. I have however encountered issues passing the state to another component and so I kept the file structure simple: the App serves as a container and it renders only one component- SelectedEmployeeDetail. In this file the code is not particularly DRY, there are chunks of it which are repeated and ideally I would have them as a separate component rendered by SelectedEmployeeDetail but I encountered issues that I still hope to resolve but had to leave as it is for now. 
+
+Given that this assignment proved slightly more challenging than expected (in a good way!) I had to give up on coming up with my own design and decided to follow the example provided. I decided against using any library for that, as I find it easier to replicate styling with just plain CSS, not to mention that I enjoy it. 
+
+To run the app navigate to the folder containing files in the terminal and type npm start. 

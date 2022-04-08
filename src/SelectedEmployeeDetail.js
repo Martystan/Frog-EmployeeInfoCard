@@ -11,14 +11,14 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
             <p className='job-title'>{selectedEmployee.jobTitle}</p>
             <p className='company-name'>{selectedEmployee.companyName}</p>
             <div >
-                <a href="https://www.facebook.com/frogsystems" target='_blank'><img className="sm-icons" src={require('./facebook2.png') } alt="facebook"></img></a>
+                <a href="https://www.facebook.com/frogsystems" target='_blank'><img className="sm-icons" src={require('./images/facebook2.png') } alt="facebook"></img></a>
                 
-                <a href='https://www.linkedin.com/company/frog-systems-ltd/' target="_blank"><img className="sm-icons" src={require('./linkedin.png') } alt="linkedin"></img></a>
-                <a href='https://twitter.com/frogsystemsltd' target="_blank"><img className="sm-icons" src={require('./twitter.png') } alt="twitter"></img></a>
+                <a href='https://www.linkedin.com/company/frog-systems-ltd/' target="_blank"><img className="sm-icons" src={require('./images/linkedin.png') } alt="linkedin"></img></a>
+                <a href='https://twitter.com/frogsystemsltd' target="_blank"><img className="sm-icons" src={require('./images/twitter.png') } alt="twitter"></img></a>
             </div>
             <div className='more-info'>
                 <p onClick={handleClick}>Hide Info</p>
-                <img src={require('./info.png')} alt='info' ></img>
+                <img src={require('./images/info.png')} alt='info' ></img>
             </div>
             <p className='info'> {selectedEmployee.moreInfo}</p>
         </section>
@@ -32,14 +32,14 @@ const SelectedEmployeeDetail=({selectedEmployee})=>{
                 <p className='job-title'>{selectedEmployee.jobTitle}</p>
                 <p className='company-name'>{selectedEmployee.companyName}</p>
                 <div>
-                    <a href="https://www.facebook.com/frogsystems" target='_blank'><img className="sm-icons" src={require('./facebook2.png') } alt="facebook"></img></a>
+                    <a href="https://www.facebook.com/frogsystems" target='_blank'><img className="sm-icons" src={require('./images/facebook2.png') } alt="facebook"></img></a>
                     
-                    <a href='https://www.linkedin.com/company/frog-systems-ltd/' target="_blank"><img className="sm-icons" src={require('./linkedin.png') } alt="linkedin"></img></a>
-                    <a href='https://twitter.com/frogsystemsltd' target="_blank"><img className="sm-icons" src={require('./twitter.png') } alt="twitter"></img></a>
+                    <a href='https://www.linkedin.com/company/frog-systems-ltd/' target="_blank"><img className="sm-icons" src={require('./images/linkedin.png') } alt="linkedin"></img></a>
+                    <a href='https://twitter.com/frogsystemsltd' target="_blank"><img className="sm-icons" src={require('./images/twitter.png') } alt="twitter"></img></a>
             </div>
             <div className='more-info'>
                 <p onClick={handleClick}>More Info</p>
-                <img src={require('./info.png')} alt='info' ></img>
+                <img src={require('./images/info.png')} alt='info' ></img>
             </div>
         </section>
         )
